@@ -1,0 +1,7 @@
+Cant get around the password prompt in jupyter notebooks!!!
+
+Open cmd and type jupyter notebook --generate-config. If it says Writing default config to: jupyter_notebook_config.py great!! Otherwise
+Look for Anaconda3/Scripts folder and navigate to it using cmd (windows). For example in my case it was C:\Users\dell\Anaconda3\Scripts. This is the home directory.
+Type jupyter notebook --generate-config. It should say Writing default config to: C:\Users\dell\.jupyter\jupyter_notebook_config.py.
+Type jupyter notebook password. Enter password and verify it. It will show confirmation. Reload the page asking the password and enter the password you just created.
+Viola!!
